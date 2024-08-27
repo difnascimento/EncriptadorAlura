@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    line-height: 150%;
+    background: #E5EEE5;
+}
+.logoAlura{
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 2%;
+}
+header img{
+    margin-left: 5%;
+    margin-top: 20px;
+}
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;   
+}
+.text-area{
+    color: #0a3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+    resize: none;
+    border-radius: 24px;
+    padding: 10px;
+    width: 100%;
+}
+.text-area::placeholder{
+    text-transform: none;
+    outline: none;
+    color: #0a3871;
+}
+
+.mensagem{
+    background: white;
+    /*background-image: url(/img/boneco_alura.png);*/
+    /*background-repeat: no-repeat;*/
+    border-radius: 24px;
+    color:#0a3871;
+    /*margin-left: 98px;
+    margin-top: 20px;*/
+    /*padding-left: 20px;*/
+    resize: none;
+    pointer-events: none;
+}
+.mensagem:focus{
+   outline: none;
+}
+.botoes{
+    display: flex;
+    margin-top: 18px;
+}
+.btn-encriptar{
+    background: #D8DFE8;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: #0a3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+.btn-encriptar:hover{
+    background-color: #0a3871;
+    color: #D8DFE8;
+    border: #D8DFE8;
+}
+
+.btn-desencriptar{
+    background: #0a3871;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+.btn-desencriptar:hover{
+    background-color: #FFFFFF;
+    color: #0a3871;
+    border: #0a3871;
+}
+.btn-copiar{
+    border: 1px solid   #0a3871;
+    border-radius: 24px;
+    color: #0a3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 40px;
+    margin-top: 10px;
+    position: absolute;
+    width: 200px;
+    align-items: center;
+}
+.informacao{
+    color: #495057;
+    font-size: 18px;
+}
